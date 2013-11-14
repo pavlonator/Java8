@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5788f682-e328-4ecb-b8ce-5446aa841376" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/actors/ActorExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/actors/HollywoodActor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stm/RefExample.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8.iml" afterPath="$PROJECT_DIR$/Java8.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lunchAndLearn.iws" />
@@ -16,7 +20,7 @@
     <file path="/Test.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384233802834" ignored="false" />
     <file path="/Helicopter.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384233892735" ignored="false" />
     <file path="/Quadracopter.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384234046988" ignored="false" />
-    <file path="/fragment.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384443987313" ignored="false" />
+    <file path="/fragment.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384444262945" ignored="false" />
     <file path="/WaterLanding.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384234407189" ignored="false" />
     <file path="$PROJECT_DIR$/src/stm.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384234682177" ignored="false" />
     <file path="/Concurency.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384236953542" ignored="false" />
@@ -30,7 +34,7 @@
     <file path="/RefExample.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384300370631" ignored="false" />
     <file path="/ActorExample.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384299990726" ignored="false" />
     <file path="/HollywoodActor.java" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384300040198" ignored="false" />
-    <file path="/Dummy.txt" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384444074901" ignored="false" />
+    <file path="/Dummy.txt" changelist="5788f682-e328-4ecb-b8ce-5446aa841376" time="1384444088748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,19 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LockManagedOperator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LockManagedOperator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stm/LockManagedOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RefExample.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stm/RefExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="443" selection-end="443" vertical-scroll-proportion="0.28350514">
+            <state line="13" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="0.28350514">
               <folding />
             </state>
           </provider>
@@ -122,24 +117,6 @@
         <entry file="file://$PROJECT_DIR$/src/Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actors/ActorExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HollywoodActor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actors/HollywoodActor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -366,13 +343,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
@@ -397,51 +424,7 @@
       <recent name="interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ActorExample">
-    <configuration default="false" name="IfcTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="interfaces.IfcTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ActorExample" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="actors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="actors.ActorExample" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Collections">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -527,28 +510,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RefExample" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="stm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="stm.RefExample" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Collections" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Collections" />
@@ -617,20 +578,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.RefExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Collections" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Lambda" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Concurrency" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IfcTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ActorExample" />
+    <configuration default="false" name="IfcTest" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="interfaces.IfcTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Collections" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Lambda" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Concurrency" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IfcTest" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ActorExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IfcTest" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
     </configuration>
@@ -650,7 +625,11 @@
       <created>1384444078622</created>
       <updated>1384444078622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some config updates">
+      <created>1384444090288</created>
+      <updated>1384444090288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,7 +644,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Rtc.PendingChanges" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -746,23 +725,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/actors/ActorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actors/HollywoodActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -798,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stm/LockManagedOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+        <state line="13" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="0.28350514">
           <folding />
         </state>
       </provider>
@@ -806,13 +771,6 @@
     <entry file="file://$PROJECT_DIR$/src/stm/SyncManagedOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actors/ActorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -834,20 +792,6 @@
     <entry file="file://$PROJECT_DIR$/src/Lambda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actors/HollywoodActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stm/RefExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="443" selection-end="443" vertical-scroll-proportion="0.28350514">
           <folding />
         </state>
       </provider>
